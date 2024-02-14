@@ -1,0 +1,48 @@
+@media (max-width: 500px) {
+    .video video {
+        display: none;
+    }
+
+    .video {
+        background: url(./img/1113.avif) no-repeat;
+        height: 110vh;
+        width: 100%;
+    }
+
+    .detail p {
+        font-size: 30px;
+    }
+
+    .ulm h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .infoList {
+        width: 100%;
+    }
+
+
+    .cardList__btn.btn--left {
+        left: 50px;
+        background-color: rgb(120, 255, 165);
+        width: 5px;
+        height: 10px;
+    }
+
+    .cardList__btn.btn--right {
+        background-color: rgb(120, 255, 165);
+        width: 5px;
+        height: 10px;
+        right: 50px;
+    }
+
+    footer>p {
+        display: none;
+    }
+
+
+
+}

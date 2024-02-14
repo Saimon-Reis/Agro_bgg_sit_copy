@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>P_Saimon_p</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="typ.css">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-transparent mt-2">
+            <div class="container-fluid container-lg" id="round-onclick">
+                <a class="logo d-lg-none d-block text-decoration-none" href="#">
+                    <h1>Agro Baggio</h1>
+                </a>
+                <button class="navbar-toggler menu border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list" id="menu"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Peças e serviços</a>
+                        </li>
+                    </ul>
+                    <a class="logo d-lg-block text-decoration-none d-none" href="#">
+                        <h1>Agro Baggio</h1>
+                    </a>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Compra e Financiamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Nossa Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#lance" class="nav-link">Lançamento</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <script src="bagg.js"></script>
+
+    <div class="video position-relative">
+        <video autoplay muted loop id="myVideo">
+            <source src="./trator.webm" type="video/mp4">
+        </video>
+        <div class="d-flex justify-content-center">
+            <div class="detail">
+                <p class="mb-3">DOHN DEERE</p>
+                <hr class="mb-3">
+                <a href="#veto" class="text-decoration-none fw-normal">DESCOBRIR MAIS</a>
+                <div class="arrow mt-4"><i class="bi bi-chevron-down"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="veto" class="container">
+        <div class="card__container">
+            <article class="card__article">
+                <img src="./img/1.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description"></span>
+                    <h2 class="card__title">Cadastre Seu Curriculo</h2>
+                    <a href="#" class="card__button">Clique Aqui</a>
+                </div>
+            </article>
+
+            <article class="card__article">
+                <img src="./img/2.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description"></span>
+                    <h2 class="card__title">Nomeação DPO Data Proteção Officer</h2>
+                    <a href="#" class="card__button">Clique Aqui</a>
+                </div>
+            </article>
+
+            <article class="card__article">
+                <img src="./img/3.jpeg" alt="image" class="card__img">
+
+                <div class="card__data">
+                    <span class="card__description"></span>
+                    <h2 class="card__title">Serviço Online</h2>
+                    <a href="#" class="card__button">Clique Aqui</a>
+                </div>
+            </article>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <div class="ulm">
+        <h1>
+            Ultimos Lançamentos
+        </h1>
+    </div>
+
+    <div id="lance" class="body1">
+        <div class="app">
+
+            <div class="cardList">
+                <button class="cardList__btn btn btn--left">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-left"></use>
+                        </svg>
+                    </div>
+                </button>
+
+                <div class="cards__wrapper">
+                    <div class="card current--card">
+                        <div class="card__image">
+                            <img src="./img/7m.jpeg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="card next--card">
+                        <div class="card__image">
+                            <img src="./img/AUTO.jpg" alt="" />
+                        </div>
+                    </div>
+
+                    <div class="card previous--card">
+                        <div class="card__image">
+                            <img src=".//img/S790.webp" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <button class="cardList__btn btn btn--right">
+                    <div class="icon">
+                        <svg>
+                            <use xlink:href="#arrow-right"></use>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+
+            <div class="infoList">
+                <div class="info__wrapper">
+                    <div class="info current--info">
+                        <h1 class="text name">7M</h1>
+                        <h4 class="text location">JOHN DEERE 2023</h4>
+                        <p class="text description">John Deere PowerTech E 6068HBM08.</p>
+                    </div>
+
+                    <div class="info next--info">
+                        <h1 class="text name">8R</h1>
+                        <h4 class="text location">JOHN DEERE-2022</h4>
+                        <p class="text description">Trator autônomo, Consumer Technology Association.</p>
+                    </div>
+
+                    <div class="info previous--info">
+                        <h1 class="text name">S790</h1>
+                        <h4 class="text location">JOHN DEERE-2020</h4>
+                        <p class="text description">Modelos de séries: S400, S500 e S700.</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="app__bg">
+                <div class="app__bg__image current--image">
+                    <img src="./img/7m.jpeg" alt="" />
+                </div>
+                <div class="app__bg__image next--image">
+                    <img src="./img/AUTO.jpg" alt="" />
+                </div>
+                <div class="app__bg__image previous--image">
+                    <img src="./img/S790.webp" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="loading__wrapper">
+            <div class="loader--text">Agro Baggio....</div>
+            <div class="loader">
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <script src='link01.js'></script>
+    <script src='link02.js'></script>
+    <script src="slider.js"></script>
+
+    <div class="lid">
+
+<!-- carousel -->
+<div class="carousel">
+    <!-- list item -->
+    <div class="list">
+        <div class="item">
+            <img src="./img/1113.avif">
+            <div class="content">
+                <div class="author">John Deere</div>
+                <div class="title">Plantadeira 12L</div>
+                <div class="topic">1113</div>
+                <div class="des">
+                    Excelente performance no controle da deposição de sementes e fertilizante. <br>
+                    10% melhor deposição de sementes, devido à combinação do dosador MaxEmergeTM 5 e a linha de plantio <br>
+                    33% maior velocidade em manobras, além de 16% maior eficiência no consumo de combustível <br>
+                    7% maior economia de sementes com a tecnologia de desligamento de linhas RowCommand™
+                </div>
+                <div class="buttons">
+                    <button>Saiba Mais</button>
+                    <button>DESTACADOS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/M4030.jpg">
+            <div class="content">
+                <div class="author">John Deere</div>
+                <div class="title">Pulverizadores</div>
+                <div class="topic">M4030</div>
+                <div class="des">
+                    Versatilidade: ao aliar o tanque de solução de 3.000 litros com 3 opções de barras: 27 e 30 m de aço e 36 m de fibra de carbono. <br>
+                    ExactApply™: Sistema Inteligente de Controle de Pontas e pulso de 30 Hertz;
+
+                </div>
+                <div class="buttons">
+                    <button>Saiba Mais</button>
+                    <button>DESTACADOS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/S760.webp">
+            <div class="content">
+                <div class="author">John Deere</div>
+                <div class="title">Colheitadeiras</div>
+                <div class="topic">S760</div>
+                <div class="des">
+                    Sistema Dyna-Flo Plus, reduz o volume de retrilha em até 28%.<br>
+                    Sistema ATA que ajusta a abertura das peneiras e a velocidade do ventilador, adaptando-se a topografia do terreno. <br>
+                    Active Yield: acuracidade nos mapas de produtividade. <br>
+                </div>
+                <div class="buttons">
+                    <button>Saiba Mais</button>
+                    <button>DESTACADOS</button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/CP770.jpg">
+            <div class="content">
+                <div class="author">John Deere</div>
+                <div class="title">Colhedora de Algodão</div>
+                <div class="topic">CP770</div>
+                <div class="des">
+                    Fardos 2% maiores e 5% mais densos <br>
+                    Antena StarFire™ 7000 integrada <br>
+                    Plataforma estendida <br>
+                    Novos pontos de iluminaçã 
+                </div>
+                <div class="buttons">
+                    <button>Saiba Mais</button>
+                    <button>DESTACADOS</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- list thumnail -->
+    <div class="thumbnail">
+        <div class="item">
+            <img src="./img/1113.avif">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/M4030.jpg">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/S760.webp">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="./img/CP770.jpg">
+            <div class="content">
+                <div class="title">
+                    Name Slider
+                </div>
+                <div class="description">
+                    Description
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- next prev -->
+
+    <div class="arrows">
+        <button id="prev"><</button>
+        <button id="next">></button>
+    </div>
+    <!-- time running -->
+    <div class="time"></div>
+</div>
+
+    </div>
+
+   <script src="cata.js"></script>
+    
+
+   <footer>
+    <div class="footer-links">
+        <a href="">
+           <img src="./png sociais/gmail.png" alt="">
+        </a> 
+        <a href="">
+        <img src="./png sociais/mapa.png" alt="">
+        </a> 
+        <a href="">
+        <img src="./png sociais/rede-privada.png" alt="">
+        </a>
+    </div>
+    
+    <div class="social-icons">
+        <a href="" target="_blank">
+            <img src="./png sociais/instagram.png" alt="Instagram">
+        </a>
+        <a href="" target="_blank">
+            <img src="./png sociais/youtube.png" alt="YouTube">
+        </a>
+        <a href="" target="_blank">
+            <img src="./png sociais/facebook.png" alt="Facebook">
+        </a>
+        <a href="" target="_blank">
+            <img src="./png sociais/linkedin.png" alt="LinkedIn">
+        </a>
+    </div>
+
+    <p>Direitos Reservados &copy; 2024-Agro Baggio. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
