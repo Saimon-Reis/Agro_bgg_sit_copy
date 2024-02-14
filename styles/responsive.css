@@ -4,7 +4,8 @@
     }
 
     .video {
-        background: url(./img/1113.avif) no-repeat;
+        background: url(../img/1113.avif) no-repeat;
+        
         height: 110vh;
         width: 100%;
     }
