@@ -1,5 +1,5 @@
 <h1> 🚀 Tecnologias<h1>
-Esse repositório contém essas tais tecnologias :
+<h4> Esse repositório contém essas tais tecnologias :</h4>
 
 JavaScript
 HTML
